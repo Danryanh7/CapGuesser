@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3039267C27EB8F9600230020 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039267B27EB8F9600230020 /* Question.swift */; };
+		3039267E27EBAC0900230020 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039267D27EBAC0900230020 /* ChoiceTextView.swift */; };
+		3039268027EBB41E00230020 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039267F27EBB41E00230020 /* Game.swift */; };
+		3039268427EBBDD000230020 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039268327EBBDD000230020 /* WelcomeView.swift */; };
+		3039268627EBC12B00230020 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039268527EBC12B00230020 /* GameColor.swift */; };
+		3039268827EBC20100230020 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039268727EBC20100230020 /* BottomTextView.swift */; };
+		3039268B27EBD39D00230020 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039268A27EBD39D00230020 /* GameViewModel.swift */; };
+		3039268D27EBD5E000230020 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039268C27EBD5E000230020 /* QuestionView.swift */; };
+		305CFDA327EBFD3600FB3CF6 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305CFDA227EBFD3600FB3CF6 /* ScoreView.swift */; };
+		305CFDA527EBFE1700FB3CF6 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305CFDA427EBFE1700FB3CF6 /* ScoreViewModel.swift */; };
+		30EC1D8327DC458000ECFAB4 /* CapGuesserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC1D8227DC458000ECFAB4 /* CapGuesserApp.swift */; };
+		30EC1D8527DC458000ECFAB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC1D8427DC458000ECFAB4 /* ContentView.swift */; };
+		30EC1D8727DC458100ECFAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EC1D8627DC458100ECFAB4 /* Assets.xcassets */; };
+		30EC1D8A27DC458100ECFAB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EC1D8927DC458100ECFAB4 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3039267B27EB8F9600230020 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		3039267D27EBAC0900230020 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		3039267F27EBB41E00230020 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		3039268327EBBDD000230020 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3039268527EBC12B00230020 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		3039268727EBC20100230020 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		3039268A27EBD39D00230020 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		3039268C27EBD5E000230020 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		305CFDA227EBFD3600FB3CF6 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		305CFDA427EBFE1700FB3CF6 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+		30EC1D7F27DC458000ECFAB4 /* CapGuesser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapGuesser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EC1D8227DC458000ECFAB4 /* CapGuesserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapGuesserApp.swift; sourceTree = "<group>"; };
+		30EC1D8427DC458000ECFAB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30EC1D8627DC458100ECFAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30EC1D8927DC458100ECFAB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30EC1D7C27DC458000ECFAB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3039268127EBB46100230020 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3039267F27EBB41E00230020 /* Game.swift */,
+				3039267B27EB8F9600230020 /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3039268227EBB48800230020 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3039267D27EBAC0900230020 /* ChoiceTextView.swift */,
+				30EC1D8427DC458000ECFAB4 /* ContentView.swift */,
+				3039268327EBBDD000230020 /* WelcomeView.swift */,
+				3039268527EBC12B00230020 /* GameColor.swift */,
+				3039268727EBC20100230020 /* BottomTextView.swift */,
+				3039268C27EBD5E000230020 /* QuestionView.swift */,
+				305CFDA227EBFD3600FB3CF6 /* ScoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3039268927EBD37E00230020 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3039268A27EBD39D00230020 /* GameViewModel.swift */,
+				305CFDA427EBFE1700FB3CF6 /* ScoreViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		30EC1D7627DC458000ECFAB4 = {
+			isa = PBXGroup;
+			children = (
+				30EC1D8127DC458000ECFAB4 /* CapGuesser */,
+				30EC1D8027DC458000ECFAB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30EC1D8027DC458000ECFAB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30EC1D7F27DC458000ECFAB4 /* CapGuesser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30EC1D8127DC458000ECFAB4 /* CapGuesser */ = {
+			isa = PBXGroup;
+			children = (
+				3039268927EBD37E00230020 /* ViewModels */,
+				3039268227EBB48800230020 /* Views */,
+				3039268127EBB46100230020 /* Models */,
+				30EC1D8227DC458000ECFAB4 /* CapGuesserApp.swift */,
+				30EC1D8627DC458100ECFAB4 /* Assets.xcassets */,
+				30EC1D8827DC458100ECFAB4 /* Preview Content */,
+			);
+			path = CapGuesser;
+			sourceTree = "<group>";
+		};
+		30EC1D8827DC458100ECFAB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30EC1D8927DC458100ECFAB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30EC1D7E27DC458000ECFAB4 /* CapGuesser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EC1D8D27DC458100ECFAB4 /* Build configuration list for PBXNativeTarget "CapGuesser" */;
+			buildPhases = (
+				30EC1D7B27DC458000ECFAB4 /* Sources */,
+				30EC1D7C27DC458000ECFAB4 /* Frameworks */,
+				30EC1D7D27DC458000ECFAB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapGuesser;
+			productName = CapGuesser;
+			productReference = 30EC1D7F27DC458000ECFAB4 /* CapGuesser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30EC1D7727DC458000ECFAB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					30EC1D7E27DC458000ECFAB4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 30EC1D7A27DC458000ECFAB4 /* Build configuration list for PBXProject "CapGuesser" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30EC1D7627DC458000ECFAB4;
+			productRefGroup = 30EC1D8027DC458000ECFAB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30EC1D7E27DC458000ECFAB4 /* CapGuesser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30EC1D7D27DC458000ECFAB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EC1D8A27DC458100ECFAB4 /* Preview Assets.xcassets in Resources */,
+				30EC1D8727DC458100ECFAB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30EC1D7B27DC458000ECFAB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3039268D27EBD5E000230020 /* QuestionView.swift in Sources */,
+				3039268B27EBD39D00230020 /* GameViewModel.swift in Sources */,
+				3039267C27EB8F9600230020 /* Question.swift in Sources */,
+				305CFDA527EBFE1700FB3CF6 /* ScoreViewModel.swift in Sources */,
+				3039268427EBBDD000230020 /* WelcomeView.swift in Sources */,
+				3039268027EBB41E00230020 /* Game.swift in Sources */,
+				30EC1D8527DC458000ECFAB4 /* ContentView.swift in Sources */,
+				3039268827EBC20100230020 /* BottomTextView.swift in Sources */,
+				305CFDA327EBFD3600FB3CF6 /* ScoreView.swift in Sources */,
+				3039268627EBC12B00230020 /* GameColor.swift in Sources */,
+				3039267E27EBAC0900230020 /* ChoiceTextView.swift in Sources */,
+				30EC1D8327DC458000ECFAB4 /* CapGuesserApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		30EC1D8B27DC458100ECFAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30EC1D8C27DC458100ECFAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30EC1D8E27DC458100ECFAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CapGuesser/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DialledInc.CapGuesser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30EC1D8F27DC458100ECFAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CapGuesser/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DialledInc.CapGuesser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30EC1D7A27DC458000ECFAB4 /* Build configuration list for PBXProject "CapGuesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EC1D8B27DC458100ECFAB4 /* Debug */,
+				30EC1D8C27DC458100ECFAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EC1D8D27DC458100ECFAB4 /* Build configuration list for PBXNativeTarget "CapGuesser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EC1D8E27DC458100ECFAB4 /* Debug */,
+				30EC1D8F27DC458100ECFAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30EC1D7727DC458000ECFAB4 /* Project object */;
+}
