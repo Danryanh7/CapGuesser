@@ -32,7 +32,7 @@ struct Question: Hashable {
                 possibleAnswers: ["Juicy", "Large", "Blue", "Hairy"],
                 correctAnswerIndex: 3),
         Question(questionText: "The sound of E.T walking was made by someone squishing...",
-                possibleAnswers: ["A Fleshlight", "Jell-O", "A Cow Udder", "Your Moms Tits"],
+                possibleAnswers: ["A Breast Implant", "Jell-O", "A Cow Udder", "A Water Balloon"],
                 correctAnswerIndex: 1),
         Question(questionText: "Ben & Jerry started making ice cream after making ___ got too expensive",
                 possibleAnswers: ["Bagels", "Vibrators", "Inflatable Pools", "Organic Yoghurt"],
